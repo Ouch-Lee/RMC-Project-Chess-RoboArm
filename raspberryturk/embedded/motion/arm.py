@@ -1,5 +1,6 @@
 # import time
 # import serial
+#NumPy函数库是Python开发环境的一个独立模块，是Python的一种开源的数值计算扩展工具
 import numpy as np
 from pytweening import easeInOutQuint, easeOutSine
 from scipy.misc import derivative
@@ -7,6 +8,7 @@ from scipy.interpolate import interp1d
 from raspberryturk.embedded.motion.arm_movement_engine import ArmMovementEngine
 from pypose.ax12 import *
 from pypose.driver import Driver
+
 
 SERVO_1 = 1
 SERVO_2 = 2
